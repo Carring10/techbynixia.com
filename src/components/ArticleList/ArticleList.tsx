@@ -6,9 +6,9 @@ export const ArticleList = () => {
         <div>
             {posts.map((post, index) => (
                 <Link to={`/posts/${post.slug}`} key={index}>
-                    <div>
+                    <article>
                         <h1>{post.title}</h1>
-                    </div>
+                    </article>
                 </Link>
             ))}
         </div>

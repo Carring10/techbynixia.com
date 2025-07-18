@@ -18,9 +18,8 @@ export interface BlogPost {
 console.log(files)
 
 export const posts: BlogPost[] = Object.entries(files).map(([path, raw]) => {
-  console.log(raw)
   const { data, content } = matter(raw as string)
-  console.log(data, content)
+  console.log(data)
   const slug = path.split('/').pop()?.replace('.md', '') || ''
 
   return {

@@ -1,6 +1,7 @@
 import { Navbar } from "../Navbar/Navbar";
-import { useParams } from 'react-router-dom'
-import { posts } from "../../utils/loadMarkdown"
+import { useParams } from 'react-router-dom';
+import { posts } from "../../utils/loadMarkdown";
+import ReactMarkdown from 'react-markdown';
 
 export const Article = () => {
   const { slug } = useParams();
@@ -12,10 +13,8 @@ export const Article = () => {
     <>
     <Navbar />
     <div className="prose">
-      <h1>{post.title}</h1>
-      <p>{post.date}</p>
       {post.image && <img src={post.image} alt={post.title} />}
-      <div dangerouslySetInnerHTML={{ __html: post.content }} />
+      <ReactMarkdown>{post.content}</ReactMarkdown>
     </div>
     </>
   )
