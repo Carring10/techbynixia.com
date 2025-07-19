@@ -1,11 +1,11 @@
 .content-container {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 .post-content {
-    width: 40%;
-    font-family: "Roboto", sans-serif;
+  width: 40%;
+  font-family: "Roboto", sans-serif;
 }
 
 .post-content img {
@@ -13,4 +13,50 @@
   margin: 2rem auto;
   max-width: 100%;
   border-radius: 8px;
+}
+
+@media (max-width: 1500px) {
+  .post-content {
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  .post-content {
+    width: 60%;
+  }
+}
+
+@media (max-width: 600px) {
+  .post-content {
+    width: 70%;
+  }
+}
+
+@media (max-width: 450px) {
+  .post-content {
+    width: 90%;
+  }
+
+  .post-content h1 {
+    font-size: 25px;
+  }
+
+  .post-content h2 {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 325px) {
+  .post-content {
+    width: 98%;
+  }
+
+  .post-content h1 {
+    font-size: 20px;
+  }
+
+  .post-content h2 {
+    font-size: 15px;
+  }
 }
