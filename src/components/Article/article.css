@@ -1,0 +1,16 @@
+.content-container {
+    display: flex;
+    justify-content: center;
+}
+
+.post-content {
+    width: 40%;
+    font-family: "Roboto", sans-serif;
+}
+
+.post-content img {
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+  border-radius: 8px;
+}

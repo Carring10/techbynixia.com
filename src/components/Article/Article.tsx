@@ -2,6 +2,7 @@ import { Navbar } from "../Navbar/Navbar";
 import { useParams } from 'react-router-dom';
 import { posts } from "../../utils/loadMarkdown";
 import ReactMarkdown from 'react-markdown';
+import "./article.css";
 
 export const Article = () => {
   const { slug } = useParams();
@@ -11,11 +12,12 @@ export const Article = () => {
 
   return (
     <>
-    <Navbar />
-    <div className="prose">
-      {post.image && <img src={post.image} alt={post.title} />}
-      <ReactMarkdown>{post.content}</ReactMarkdown>
-    </div>
+      <Navbar />
+      <div className="content-container">
+        <div className="post-content">
+          <ReactMarkdown>{post.content}</ReactMarkdown>
+        </div>
+      </div>
     </>
   )
 }

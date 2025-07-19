@@ -1,0 +1,10 @@
+.nav-container {
+    border-bottom: 1px solid #b3b3b3;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+}

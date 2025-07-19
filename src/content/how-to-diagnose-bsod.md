@@ -1,13 +1,15 @@
 ---
 title: "How to Diagnose a Blue Screen of Death (BSOD) on Windows: A Beginner-Friendly Guide"
 date: "07-18-2025"
-image: "/images"
 slug: "how-to-diagnose-bsod"
 ---
 
-# 🖥️ How to Diagnose a Blue Screen of Death (BSOD) on Windows: A Beginner-Friendly Guide
+# How to Diagnose a Blue Screen of Death (BSOD) on Windows: 
+## A Beginner-Friendly Guide
 
-## 💡 What Is the Blue Screen of Death?
+![Blue Screen of Death](/images/blue-screen-of-death.jpg)
+
+## What Is the Blue Screen of Death?
 
 A **Blue Screen of Death (BSOD)** appears when your Windows PC encounters a **critical system error** it cannot safely recover from. The screen turns blue, displays a STOP code, and often restarts your machine. It happens as a way to prevent further damage and data loss.
 
@@ -15,25 +17,25 @@ A **Blue Screen of Death (BSOD)** appears when your Windows PC encounters a **cr
 
 ---
 
-## 🔍 What Causes a BSOD?
+## What Causes a BSOD?
 
 Before you can fix the blue screen, you need to understand what causes it. A BSOD can be triggered by a range of problems. Here are the **most common causes of BSOD errors**:
 
-- ❌ Faulty hardware (RAM, SSD, etc.)
-- 🧩 Corrupt or outdated device drivers
-- ⚠️ Software conflicts or bad Windows updates
-- 🛡️ Malware or virus infections
-- 📂 Corrupted Windows system files
+- Faulty hardware (RAM, SSD, etc.)
+- Corrupt or outdated device drivers
+- Software conflicts or bad Windows updates
+- Malware or virus infections
+- Corrupted Windows system files
 
 ---
 
-## 🛠️ Step-by-Step: How to Troubleshoot a Blue Screen on Windows
+## Step-by-Step: How to Troubleshoot a Blue Screen on Windows
 
 Let’s walk through the essential steps to **diagnose a BSOD** and get your PC back up and running.
 
 ---
 
-### ✅ Step 1: Write Down or Screenshot the STOP Code
+### Step 1: Write Down or Screenshot the STOP Code
 
 When the BSOD appears:
 
@@ -69,7 +71,7 @@ Here are **common BSOD stop codes and what they mean**:
 
 ---
 
-### 🔄 Step 2: Reboot into Safe Mode
+### Step 2: Reboot into Safe Mode
 
 **Safe Mode** starts your system with only the essential drivers and services, isolating third-party causes.
 
@@ -81,17 +83,17 @@ How to enter Safe Mode:
 
 ---
 
-### 🔧 Step 3: Check for Driver Issues
+### Step 3: Check for Driver Issues
 
 **Drivers** connect hardware to your OS. If they’re outdated or corrupted, they can cause BSODs.
 
-#### 🔄 Update Your Drivers
+#### Update Your Drivers
 
 1. Press `Win + X` → Open **Device Manager**
-2. Look for any ⚠️ **yellow exclamation marks**
+2. Look for any **yellow exclamation marks**
 3. Right-click → **Update Driver** or **Uninstall** and reboot
 
-#### 🔁 Roll Back a Problematic Driver
+#### Roll Back a Problematic Driver
 
 If a BSOD started after an update:
 
@@ -101,15 +103,15 @@ If a BSOD started after an update:
 
 ---
 
-### 🧪 Step 4: Test Your Hardware
+### Step 4: Test Your Hardware
 
-#### 🧠 Check Your RAM (Memory)
+#### Check Your RAM (Memory)
 
 1. Press `Win` key → search **Windows Memory Diagnostic**
 2. Click **Restart now and check for problems**
 3. Let the scan run — it may take a while
 
-#### 💽 Check Your Hard Drive
+#### Check Your Hard Drive
 
 1. Open **Command Prompt** as administrator
 2. Type: `chkdsk /f /r`
@@ -120,7 +122,7 @@ If a BSOD started after an update:
 
 ---
 
-### 🛡️ Step 5: Scan for Malware
+### Step 5: Scan for Malware
 
 Malware can corrupt system files or drivers.
 
@@ -131,7 +133,7 @@ Malware can corrupt system files or drivers.
 
 ---
 
-### 🔙 Step 6: Uninstall Recent Updates or Software
+### Step 6: Uninstall Recent Updates or Software
 
 If the blue screen started recently:
 
@@ -145,7 +147,7 @@ You can also remove newly installed software via:
 
 ---
 
-### 🔁 Step 7: Reset or Refresh Windows (Last Resort)
+### Step 7: Reset or Refresh Windows (Last Resort)
 
 If nothing else works, you may need to **reset Windows**. This is for if all else fails. Before you do this, ask yourself, "Is there anything on this computer that I would be devastated to lose?" If not, send it. I had to choose this option once, it’s not a huge deal, you’ll just have to start from scratch, but at least my files are so much more organized now.
 
@@ -158,16 +160,16 @@ If nothing else works, you may need to **reset Windows**. This is for if all els
 
 ---
 
-## 📌 Final Tips for Preventing BSODs
+## Final Tips for Preventing BSODs
 
-- 🧰 Keep drivers and Windows updated
-- 🦠 Regularly scan for malware
-- 🧼 Avoid installing unknown or unverified software
-- 🔌 Make sure hardware components are properly seated and compatible
+- Keep drivers and Windows updated
+- Regularly scan for malware
+- Avoid installing unknown or unverified software
+- Make sure hardware components are properly seated and compatible
 
 ---
 
-## 🔎 Related Questions People Often Ask
+## Related Questions People Often Ask
 
 If you’re still troubleshooting your PC, here are some common topics users also look for:
 
