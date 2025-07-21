@@ -15,8 +15,6 @@ export interface BlogPost {
   content: string
 }
 
-console.log(files)
-
 export const posts: BlogPost[] = Object.entries(files).map(([path, raw]) => {
   const { data, content } = matter(raw as string)
   console.log(data)

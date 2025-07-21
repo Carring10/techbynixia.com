@@ -15,7 +15,21 @@ export const Article = () => {
       <Navbar />
       <div className="content-container">
         <div className="post-content">
-          <ReactMarkdown>{post.content}</ReactMarkdown>
+          <ReactMarkdown
+            components={{
+              img: ({ node, ...props }) => (
+                <img
+                  {...props}
+                  decoding="async"
+                  width={props.width || '800'}
+                  height={props.height || 'auto'}
+                  style={{ maxWidth: '100%', height: 'auto' }}
+                />
+              ),
+            }}
+          >
+            {post.content}
+          </ReactMarkdown>
         </div>
       </div>
     </>

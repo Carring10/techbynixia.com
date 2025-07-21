@@ -1,0 +1,12 @@
+.article-list-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.article-list-container img {
+  display: block;
+  margin: 2rem auto;
+  max-width: 100%;
+  border-radius: 8px;
+}

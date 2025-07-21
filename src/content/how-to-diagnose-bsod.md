@@ -1,5 +1,6 @@
 ---
 title: "How to Diagnose a Blue Screen of Death (BSOD) on Windows: A Beginner-Friendly Guide"
+image: "/images/blue-screen-of-death.avif"
 date: "07-18-2025"
 slug: "how-to-diagnose-bsod"
 ---
@@ -7,7 +8,7 @@ slug: "how-to-diagnose-bsod"
 # How to Diagnose a Blue Screen of Death (BSOD) on Windows: 
 ## A Beginner-Friendly Guide
 
-![Blue Screen of Death](/images/blue-screen-of-death.jpg)
+![Blue Screen of Death](/images/blue-screen-of-death.avif)
 
 ## What Is the Blue Screen of Death?
 
