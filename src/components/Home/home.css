@@ -1,0 +1,47 @@
+.home-container {
+    display: flex;
+    width: 100%;
+}
+
+.home-contents-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin: 250px 0px 0px 450px;
+    font-family: "Roboto", sans-serif;
+    width: 45%;
+}
+
+.heading {
+    font-size: 95px;
+    margin: 0px;
+}
+
+.subheading {
+    font-size: 20px;
+    margin: 0px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+button {
+    font-family: "Roboto", sans-serif;
+    width: 150px;
+    margin: 0px;
+    font-size: 20px;
+    padding: 10px;
+    background-color: #0b0031;
+    color: white;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.logo {
+    position: absolute;
+    right: 0px;
+    bottom: 150px;
+    width: 450px;
+}
