@@ -24,12 +24,13 @@
 
 .button-container {
     display: flex;
-    gap: 20px;
+    gap: 25px;
 }
 
-button {
+.button {
     font-family: "Roboto", sans-serif;
-    width: 150px;
+    text-align: center;
+    width: 180px;
     margin: 0px;
     font-size: 20px;
     padding: 10px;
@@ -37,11 +38,11 @@ button {
     color: white;
     border: 1px solid black;
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .logo {
     position: absolute;
     right: 0px;
     bottom: 150px;
-    width: 450px;
 }

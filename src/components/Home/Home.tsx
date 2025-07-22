@@ -1,5 +1,5 @@
 import { Navbar } from "../Navbar/Navbar";
-// import { ArticleList } from "../ArticleList/ArticleList";
+import { Link } from "react-router-dom";
 import "./home.css";
 
 export const Home = () => {
@@ -11,8 +11,8 @@ export const Home = () => {
                     <h1 className="heading">Tech made simple</h1>
                     <p className="subheading">Because you don't need a degree to fix your PC</p>
                     <div className="button-container">
-                        <button>Start Reading</button>
-                        <button>About Me</button>
+                        <Link to="/posts" className="button">Start Reading</Link>
+                        <button className="button">About Me</button>
                     </div>
                 </div>
                     <img className="logo" src="images/canva-logo.png"/>
