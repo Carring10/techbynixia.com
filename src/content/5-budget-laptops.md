@@ -1,5 +1,7 @@
 ---
 title: "Top 5 Best Budget Laptops for Students"
+description: "description"
+classification: "Products"
 date: "07-17-2025"
 image: "/images"
 slug: "5-budget-laptops"

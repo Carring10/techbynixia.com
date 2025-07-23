@@ -9,6 +9,8 @@ const files = import.meta.glob('../content/*.md', {
 
 export interface BlogPost {
   title: string
+  description: string
+  classification: string
   date: string
   image: string
   slug: string
@@ -16,12 +18,13 @@ export interface BlogPost {
 }
 
 export const posts: BlogPost[] = Object.entries(files).map(([path, raw]) => {
-  const { data, content } = matter(raw as string)
-  console.log(data)
-  const slug = path.split('/').pop()?.replace('.md', '') || ''
+  const { data, content } = matter(raw as string);
+  const slug = path.split('/').pop()?.replace('.md', '') || '';
 
   return {
     title: data.title,
+    description: data.description,
+    classification: data.classification,
     date: data.date,
     image: data.image,
     slug,

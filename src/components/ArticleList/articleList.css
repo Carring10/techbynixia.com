@@ -4,9 +4,27 @@
     align-items: center;
 }
 
-.article-list-container img {
-  display: block;
+article {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
   margin: 2rem auto;
   max-width: 100%;
-  border-radius: 8px;
+}
+
+.post-contents-container {
+  width: 40%;
+}
+
+.post-title {
+  font-size: 25px;
+  margin: 0px;
+}
+
+.article-list-container img {
+  display: block;
+  margin: 0px;
+  max-width: 100%;
+  border-radius: 2px;
 }
