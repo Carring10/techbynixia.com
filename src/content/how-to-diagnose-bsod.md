@@ -3,7 +3,7 @@ title: "How to Diagnose a Blue Screen of Death (BSOD) on Windows: A Beginner-Fri
 description: "A quick, easy guide for the most common causes & how to solve them."
 classification: "Guide"
 image: "/images/blue-screen-of-death.avif"
-date: "07-18-2025"
+date: "July 18"
 slug: "how-to-diagnose-bsod"
 ---
 

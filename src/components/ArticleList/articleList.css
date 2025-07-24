@@ -1,13 +1,33 @@
 .article-list-container {
   display: flex;
   flex-direction: column;
+  align-items: flex-start;
+  font-family: "Roboto", sans-serif;
+  margin: 0px 400px;
+}
+
+.blog-banner {
+  display: flex;
   align-items: center;
+  border-bottom: 1px solid #ececec;
+  width: 100%;
+}
+
+.blog-banner-title {
+  font-size: 35px;
+}
+
+.latest-post {
+  color: #686868;
+}
+
+.link-container {
+  width: 100%;
 }
 
 article {
   display: flex;
   align-items: flex-start;
-  justify-content: center;
   gap: 20px;
   margin: 2rem auto;
   max-width: 100%;
@@ -18,7 +38,7 @@ article {
 }
 
 .post-contents-container {
-  width: 40%;
+  /* width: 100%; */
 }
 
 .post-title {
