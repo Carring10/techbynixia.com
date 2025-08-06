@@ -1,0 +1,12 @@
+.nav {
+    display: flex;
+    width: 100%;
+    border-bottom: 2px solid black;
+    padding: 15px 200px;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
