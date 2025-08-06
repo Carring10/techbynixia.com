@@ -12,9 +12,9 @@ const Navbar = () => {
                 alt="Laptop logo"
             />
             <div className={styles.links}>
-                <p>Shop</p>
-                <p>How To</p>
-                <p>About Me</p>
+                <h4>SHOP</h4>
+                <h4>HOW TO</h4>
+                <h4>ABOUT ME</h4>
             </div>
         </nav>
     )

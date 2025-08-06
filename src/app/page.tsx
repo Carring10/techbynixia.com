@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
-      <main>
+      <main className={styles.main}>
         <h1>Home</h1>
         <Link href="/articles">Start Reading</Link>
       </main>
