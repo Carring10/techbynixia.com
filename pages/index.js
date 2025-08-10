@@ -1,7 +1,5 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-import Link from "next/link";
-import Navbar from "./components/Navbar/Navbar";
+import styles from "../page.module.css";
+import Navbar from "../src/app/components/Navbar/Navbar";
 
 export default function Home() {
   return (
