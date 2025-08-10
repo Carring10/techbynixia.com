@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Open+Sans:wght@400;600&display=swap');
 
 :root {
   --background: #ffffff;
@@ -29,7 +29,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: 'IBM Plex Sans', sans-serif;
+  font-family: "Space Grotesk", Helvetica, sans-serif;
   font-weight: 600;
   margin-top: 1.5rem;
   margin-bottom: 1rem;

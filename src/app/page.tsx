@@ -8,8 +8,7 @@ export default function Home() {
     <>
       <Navbar />
       <main className={styles.main}>
-        <h1>Home</h1>
-        <Link href="/articles">Start Reading</Link>
+        <h1>Today's Hottest Deals</h1>
       </main>
     </>
   );
