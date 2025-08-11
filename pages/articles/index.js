@@ -1,5 +1,5 @@
-import ArticleList from '../../src/app/components/ArticleList.js';
-import { getSortedPostsData } from '../../src/lib/posts.js';
+import ArticleList from '../../components/ArticleList.js';
+import { getSortedPostsData } from '../../lib/posts.js';
 
 export default function ArticlesPage({ posts }) {
   console.log(posts)

@@ -1,11 +1,9 @@
 import Link from 'next/link';
-import Navbar from './Navbar/Navbar';
-import styles from "../../../page.module.css";
+import styles from "../page.module.css";
 
 const ArticleList = ({ posts }) => {
   return (
     <>
-      <Navbar />
       <main className={styles.main}>
         <h1>How to Buy Guides</h1>
         <ul>
