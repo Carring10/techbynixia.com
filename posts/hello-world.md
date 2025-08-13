@@ -1,7 +1,6 @@
 ---
 title: "Hello World"
 date: "2025-08-10"
-slug: "test"
 description: "My first post with Next.js + MDX"
 tags: ["intro"]
 ---
