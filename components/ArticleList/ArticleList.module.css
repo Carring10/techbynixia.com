@@ -1,0 +1,8 @@
+.articleContainer {
+    display: flex;
+    gap: 40px;
+}
+
+.title {
+    font-size: 1.5rem;
+}
