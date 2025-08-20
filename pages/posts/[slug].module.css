@@ -1,0 +1,10 @@
+.slugArticleContainer {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.slugH1 {
+    font-size: 3rem;
+}

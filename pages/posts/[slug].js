@@ -1,11 +1,11 @@
 import { getAllPostSlugs, getPostData } from "../../lib/posts";
 import ReactMarkdown from "react-markdown";
+import styles from "./[slug].module.css";
 
 export default function ArticlePage({ post }) {
-  console.log(post)
   return (
-    <article>
-      <h1>{post.meta.title}</h1>
+    <article className={styles.slugArticleContainer}>
+      <h1 className={styles.slugH1}>{post.meta.title}</h1>
       <p>{post.meta.date}</p>
       <ReactMarkdown>{post.content}</ReactMarkdown>
     </article>

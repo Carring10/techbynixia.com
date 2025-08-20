@@ -2,7 +2,6 @@ import ArticleList from '../../components/ArticleList/ArticleList.js';
 import { getSortedPostsData } from '../../lib/posts.js';
 
 export default function ArticlesPage({ posts }) {
-  console.log(posts)
   return <ArticleList posts={posts} />;
 }
 
