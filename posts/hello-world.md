@@ -12,4 +12,3 @@ Inline code: `const x = 1;`
 A code block:
 
 ```js
-console.log("no syntax highlighting in this starter — just a plain <pre>");

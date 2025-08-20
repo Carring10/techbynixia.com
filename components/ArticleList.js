@@ -9,13 +9,13 @@ const ArticleList = ({ posts }) => {
         <h1>Buyer Guides</h1>
         <ul>
           {posts.map(({ slug, title, description, date }) => (
-            <li key={slug}>
+            <div key={slug}>
               <Link href={`/posts/${slug}`}>
                 <h1>{title}</h1>
               </Link>
               <p>{description}</p>
               <small>{date}</small>
-            </li>
+            </div>
           ))}
         </ul>
       </main>
