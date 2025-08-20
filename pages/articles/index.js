@@ -1,4 +1,4 @@
-import ArticleList from '../../components/ArticleList.js';
+import ArticleList from '../../components/ArticleList/ArticleList.js';
 import { getSortedPostsData } from '../../lib/posts.js';
 
 export default function ArticlesPage({ posts }) {

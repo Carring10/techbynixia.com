@@ -1,5 +1,6 @@
 ---
-title: "Hello World"
+title: "This Is An Example"
+img: "/placeholder.avif"
 date: "2025-08-10"
 description: "My first post with Next.js + MDX"
 tags: ["intro"]
