@@ -1,10 +1,27 @@
-.slugArticleContainer {
-    width: 70%;
+.postArticleContainer {
+    width: 80%;
+    color: black;
     display: flex;
     flex-direction: column;
     align-self: center;
 }
 
-.slugH1 {
+.postH1 {
     font-size: 3rem;
+    margin-bottom: 0px;
 }
+
+.postContent {
+    width: 70%;
+    align-self: center;
+    font-size: 1.1rem;
+}
+
+.postArticleContainer ul {
+    margin-left: 25px;
+}
+
+.postContent li::marker {
+    color: #010053;
+}
+
