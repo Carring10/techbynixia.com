@@ -1,8 +1,40 @@
 .articleContainer {
     display: flex;
-    gap: 40px;
+    gap: 7rem;
+    margin: 3rem;
 }
 
 .title {
     font-size: 1.5rem;
+}
+
+.posts {
+    width: 35%;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    padding: 1rem;
+}
+
+.posts::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 70px;
+    height: 70px;
+    border-top: 3px solid #00063d;
+    border-left: 3px solid #00063d;
+
+}
+
+.posts::after {
+  content: "";
+  position: absolute;
+  bottom: -10px; 
+  right: -10px;  
+  width: 70px;
+  height: 70px;
+  border-bottom: 3px solid #00063d;
+  border-right: 3px solid #00063d;
 }

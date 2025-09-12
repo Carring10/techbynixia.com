@@ -5,11 +5,11 @@ import Image from 'next/image';
 const ArticleList = ({ posts }) => {
   return (
     <>
-      <div>
+      <div style={{ margin: 80 }}>
         <h1>Buyer Guides</h1>
         <div className={styles.articleContainer}>
           {posts.map(({ slug, title, img, description, date }) => (
-            <div key={slug}>
+            <div key={slug} className={styles.posts}>
               <Link href={`/posts/${slug}`}>
                 <Image
                   src={img}
