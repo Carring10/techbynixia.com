@@ -13,7 +13,7 @@ const ArticleList = ({ posts }) => {
               <Link href={`/posts/${slug}`}>
                 <Image
                   src={img}
-                  width={300}
+                  width={250}
                   height={200}
                   alt="Placeholder"
                 />

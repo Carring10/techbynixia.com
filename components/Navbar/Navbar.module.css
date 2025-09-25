@@ -16,3 +16,15 @@
     gap: 50px;
     margin: 0px 40px;
 }
+
+@media (max-width: 1500px) {
+    .nav {
+        padding: 8px 100px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .nav {
+        padding: 8px 50px;
+    }
+}

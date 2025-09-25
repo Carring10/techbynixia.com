@@ -1,19 +1,20 @@
-.articleContainer {
-    display: flex;
-    gap: 7rem;
-    margin: 3rem;
-}
-
 .title {
     font-size: 1.5rem;
 }
 
+.articleContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+    width: 100%;
+}
+
 .posts {
-    width: 35%;
-    align-items: center;
-    text-align: center;
     position: relative;
+    text-align: center;
     padding: 1rem;
+    border-radius: 8px;
 }
 
 .posts::before {
@@ -29,12 +30,12 @@
 }
 
 .posts::after {
-  content: "";
-  position: absolute;
-  bottom: -10px; 
-  right: -10px;  
-  width: 70px;
-  height: 70px;
-  border-bottom: 3px solid #00063d;
-  border-right: 3px solid #00063d;
+    content: "";
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    width: 70px;
+    height: 70px;
+    border-bottom: 3px solid #00063d;
+    border-right: 3px solid #00063d;
 }
