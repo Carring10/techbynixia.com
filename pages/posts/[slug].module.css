@@ -7,9 +7,18 @@
     align-self: center;
 }
 
+.titleContainer {
+    align-self: center;
+    margin-bottom: 25px;
+}
+
 .postH1 {
     font-size: 3rem;
     margin-bottom: 0px;
+}
+
+.date {
+    color: #686868;
 }
 
 .postContent {

@@ -60,8 +60,9 @@
 }
 
 .content {
-  width: 80%;
+  width: 98%;
   height: 600px;
+  align-self: center;
   background-color: #e0e0e0;
 }
 

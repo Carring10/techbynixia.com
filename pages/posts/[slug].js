@@ -7,7 +7,7 @@ export default function ArticlePage({ post }) {
     <article className={styles.postArticleContainer}>
       <div className={styles.titleContainer}>
         <h1 className={styles.postH1}>{post.meta.title}</h1>
-        <p>{post.meta.date}</p>
+        <p className={styles.date}>{post.meta.date}</p>
       </div>
       <div className={styles.postContent}>
         <ReactMarkdown>{post.content}</ReactMarkdown>
