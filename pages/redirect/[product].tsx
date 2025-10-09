@@ -2,6 +2,7 @@ import { GetServerSideProps } from 'next';
 
 const productLinks: Record<string, string> = {
   tagryheadphones: 'https://amzn.to/4gYRZaV',
+  airpods: 'https://amzn.to/4nJsNrm',
 };
 
 export const getServerSideProps: GetServerSideProps = async (context) => {
