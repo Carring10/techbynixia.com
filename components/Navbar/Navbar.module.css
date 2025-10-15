@@ -1,20 +1,49 @@
 .nav {
-    display: flex;
-    width: 100%;
-    border-bottom: 3px solid #00063d;
-    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.2);
-    background-color: white;
-    padding: 8px 200px;
-    position: fixed;
-    top: 0;
-    width: 100%;
+  position: fixed;
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 80%;
+  background-color: rgba(10, 10, 25, 0.7);
+  border: 1px solid pink;
+  border-radius: 20px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  transition: top 0.3s, border-radius 0.3s, width 0.3s, max-width 0.3s, background-color 0.3s;
+  z-index: 1000;
+  backdrop-filter: blur(8px);
+}
+
+.brand h2 {
+  margin: 0;
+  color: pink;
 }
 
 .links {
-    display: flex;
-    align-items: center;
-    gap: 50px;
-    margin: 0px 40px;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.links h4 {
+  margin: 0;
+  color: white;
+  cursor: pointer;
+}
+
+.scrolled {
+  top: 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid pink;
+  border-radius: 0;
+  background-color: rgba(10, 10, 25, 0.95);
 }
 
 @media (max-width: 1500px) {
